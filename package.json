@@ -1,0 +1,21 @@
+{
+  "name": "irclog-apprun",
+  "version": "1.0.0",
+  "author": "Damjan Georgievski",
+  "license": "APACHE-2.0",
+  "devDependencies": {
+    "source-map-loader": "^0.2.4",
+    "ts-loader": "^5.4.3",
+    "typescript": "^3.4.5",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1",
+    "webpack-dev-server": "^3.3.1"
+  },
+  "dependencies": {
+    "apprun": "^1.17.0"
+  },
+  "scripts": {
+    "build": "webpack -p --mode production",
+    "watch": "webpack-dev-server --mode development"
+  }
+}
